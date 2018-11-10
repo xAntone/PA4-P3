@@ -2,14 +2,14 @@
 
 int main() {
     int size = 4;
-    int marks[size];
+    char marks[size];
     int i;
 
     for (i = 0; i < size; i++) {
-        scanf("%d", &marks[i]);
+        scanf("%c", &marks[i]);
     }
     for(i = 0;i<size; i++){
-        printf("The element at %d is %d\n",i,marks[i]);
+        printf("The element at %d is %c\n",i,marks[i]);
     }
 
     return 0;
